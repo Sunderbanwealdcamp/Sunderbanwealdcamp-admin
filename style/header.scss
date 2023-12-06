@@ -1,0 +1,93 @@
+/* Header */
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  
+  .header {
+    transition: all 0.5s;
+    z-index: 997;
+    height: 60px;
+    box-shadow: 0px 1px 10px rgb(1 41 112 / 5%);
+    background-color: #fff;
+    padding-left: 20px;
+    display: flex;
+    align-items: center
+  }
+  .logo img {
+    max-height: 26px;
+    margin-right: 6px;
+  }
+  
+  .logo span {
+    font-size: 24px;
+    font-weight: 700;
+    color: #aa8453;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .header .toggle-sidebar-btn {
+    font-size: 32px;
+    padding-left: 10px;
+    cursor: pointer;
+    color: #aa8453;
+  }
+  
+  .header-nav ul {
+    list-style: none;
+    margin: 0;
+  }
+  
+  .header-nav ul li {
+    position: relative;
+  }
+  .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #aa8453;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+  }
+  
+  .nav-link:focus,
+  .nav-link:hover {
+    color: #0BB783;
+  }
+  
+  .dropdown-item.active,
+  .dropdown-item:active {
+    background-color: #0BB783;
+  }
+  
+  .header-nav .dropdown-menu {
+    padding: 0;
+  }
+  
+  .header-nav .dropdown-item {
+    padding: 0.5rem 1rem;
+  }
+  
+  .header-nav .badge-number {
+    position: absolute;
+    inset: 4px 6px auto auto;
+    font-weight: normal;
+    font-size: 11px;
+    padding: 3px 6px;
+  }
+  
+  .header-nav .nav-icon {
+    font-size: 20px;
+    color: #aa8453;
+  }
+  
+  .header-nav .nav-icon {
+    font-size: 20px;
+    color: #aa8453;
+  }
+  
+  .header-nav .nav-profile img {
+    max-height: 36px;
+  }
