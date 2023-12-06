@@ -64,7 +64,7 @@ const SignIn = () => {
         <p className='aRight'> <Link className='link' href="/forget-password">Forget Password</Link></p>
         <div className="aCenter"><button className='butn-dark' type="submit"><span>Login</span></button></div>
       </form>
-      <p className='aCenter'>Don't have an account? <Link className='link' href="/sign-up">Sign up</Link></p>
+      <p className='aCenter'>Dont have an account ? <Link className='link' href="/sign-up">Sign up</Link></p>
     </div>
   )
 }

@@ -1,13 +1,14 @@
 import React from 'react'
 import Link from 'next/link'
 
+
 function Header(props) {
   return (
     <header id="header" className="header fixed-top">
 
     <div className="d-flex align-items-center justify-content-between">
       <Link href="index.html" className="logo d-flex align-items-center">
-        <img src="img/vercel.svg" height="32px" />
+     
       </Link>
       <button
 				// className={`nav-link ${location === item.link ? 'active' : ''
